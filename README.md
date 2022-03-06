@@ -40,6 +40,29 @@ the [Django templating engine](https://github.com/django/django/blob/a46bc327e70
 | 0.4.0   | Template imports                                         | :x:      |                 |
 | 0.5.0   | Model binding                                            | :x:      |                 |
 
+## Contributing
+
+Everyone is welcome to contribute to this project! From fixing bugs, adding features, or improving the documentation,
+all PRs are considered.
+
+Commit style:
+
+```
+feat(<feature name>): <feature description> OR
+bug(<bug name>): <bug description> OR
+maintenance(<maintenance name>): <maintenance description>
+
+<commit overview>
+
+closes #123 OR
+updates #123
+
+<list of updates in commit>
+```
+
+For more information on how to style the list of updates in the commit, please
+consult [this guide](https://gist.github.com/parmentf/035de27d6ed1dce0b36a).
+
 ## Acknowledgements
 
 [1] - [Django](https://www.djangoproject.com/), the major inspiration for this project.

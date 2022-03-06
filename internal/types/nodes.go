@@ -1,9 +1,6 @@
-package internal
-
-import "fmt"
+package types
 
 type Node interface {
-	String() string
 	Render() (string, error)
 	RenderAnnotated() (string, error)
 	GetNodesByType(nodeType string) ([]Node, error)
@@ -24,10 +21,6 @@ type BaseNode struct {
 type TextNode struct {
 	BaseNode
 	Text string
-}
-
-func (n *TextNode) String() string {
-	return fmt.Sprintf("<TextNode: %s>", n.Text)
 }
 
 func (n *TextNode) Render() (string, error) {
