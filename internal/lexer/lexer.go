@@ -75,7 +75,7 @@ func (l *Lexer) createToken(tokenString string, lineNo int, inTag bool) types.To
 				}
 
 				l.verbatim = false
-			} else if content[:9] == "verbatim" || content[:9] == "verbatim " {
+			} else if content[:8] == "verbatim" {
 				l.verbatim = true
 				l.verbatimBlock = fmt.Sprintf("end%s", content)
 			}
