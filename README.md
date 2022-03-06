@@ -2,6 +2,11 @@
 
 The open-source Golang HTML templating engine
 
+[![codecov](https://codecov.io/gh/omnilium/mimic/branch/main/graph/badge.svg?token=AJWOFHKOX7)](https://codecov.io/gh/omnilium/mimic)
+![Build Status](https://github.com/omnilium/mimic/actions/workflows/go.yml/badge.svg)
+![CodeQL Status](https://github.com/omnilium/mimic/actions/workflows/codeql-analysis.yml/badge.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 ## About
 
 The Mimic templating engine is based on
